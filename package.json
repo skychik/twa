@@ -39,6 +39,7 @@
     "sdk:build": "lerna run --scope=@twa.js/sdk build",
     "sdk:dev": "lerna run --scope=@twa.js/sdk dev",
     "sdk-react:dev": "lerna run --scope=@twa.js/sdk-react dev",
+    "kitchen-sink:dev": "lerna run --scope=react-kitchen-sink dev",
     "lint": "lerna run lint",
     "test": "lerna run test",
     "publish": "lerna publish",
