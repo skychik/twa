@@ -45,7 +45,8 @@
     "release": "pnpm run test && pnpm run lint && pnpm run build && pnpm run publish --no-private"
   },
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "test-projects/*"
   ],
   "config": {
     "commitizen": {
